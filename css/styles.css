@@ -76,10 +76,24 @@ img {
     align-items: center;
 }
 
+.main-navigation-item {
+    position: relative;
+}
+
 .main-navigation-item:not(:last-child) {
     margin-right: 46px;
 }
 
+.active::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--webstudio-color);
+    border-radius: 2px;
+    bottom: -32px;
+}
 
 .main-menu {
     font-weight: 500;
@@ -718,6 +732,10 @@ body {
 
 .link-menu {
     color: var(--text-color);
+}
+
+.link-active {
+    color: var(--webstudio-color)
 }
 
 .link::selection {
