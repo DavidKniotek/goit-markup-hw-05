@@ -142,12 +142,16 @@ img {
 .envelope-hover:focus svg {
     color: var(--webstudio-color);
     fill: var(--webstudio-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone-hover:hover svg,
 .phone-hover:focus svg {
     color: var(--webstudio-color);
     fill: var(--webstudio-color);
+    transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -428,6 +432,8 @@ body {
 .social-list-link:focus {
     fill: #FFFFFF;
     background-color: var(--webstudio-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*------------INDEX SEKCJA 5 / CUSTOMERS-------*/
@@ -504,12 +510,16 @@ body {
 .customers-list-item:hover,
 .customers-list-item:focus {
     border: 1px solid var(--webstudio-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-list-item:hover svg,
 .customers-list-item:focus svg{
     color: var(--webstudio-color);
     fill: var(--webstudio-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*-----------INDEX SEKCJA 6 / FOOTER-----------*/
@@ -594,6 +604,8 @@ body {
 .footer-social-media-link:hover,
 .footer-social-media-link:focus {
     background-color: var(--webstudio-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-icon {
@@ -649,6 +661,8 @@ body {
     color: #FFFFFF;
     cursor: pointer;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*---------PORTFOLIO SEKCJA 2 PIC-BOX--------*/
@@ -719,6 +733,8 @@ body {
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -742,19 +758,19 @@ body {
     color: var(--webstudio-color);
 }
 
-.link:hover {
+.link:hover,
+.link:focus {
     color: var(--webstudio-color);
     cursor: pointer;
-}
-
-.link:focus {
-    color: var(--webstudio-color)
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
     opacity: 0.75;
     cursor: pointer;
-
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list {
