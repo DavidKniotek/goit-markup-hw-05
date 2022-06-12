@@ -144,6 +144,7 @@ img {
     fill: var(--webstudio-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 .phone-hover:hover svg,
@@ -151,7 +152,8 @@ img {
     color: var(--webstudio-color);
     fill: var(--webstudio-color);
     transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 
@@ -434,6 +436,7 @@ body {
     background-color: var(--webstudio-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill, background-color;
 }
 
 /*------------INDEX SEKCJA 5 / CUSTOMERS-------*/
@@ -512,6 +515,7 @@ body {
     border: 1px solid var(--webstudio-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-color;
 }
 
 .customers-list-item:hover svg,
@@ -520,6 +524,7 @@ body {
     fill: var(--webstudio-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, fill;
 }
 
 /*-----------INDEX SEKCJA 6 / FOOTER-----------*/
@@ -606,6 +611,7 @@ body {
     background-color: var(--webstudio-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;
 }
 
 .footer-social-icon {
@@ -663,6 +669,7 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color, background-color;
 }
 
 /*---------PORTFOLIO SEKCJA 2 PIC-BOX--------*/
@@ -730,6 +737,7 @@ body {
     cursor: pointer;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
 }
 
 .box {
@@ -741,6 +749,7 @@ body {
     transform: translateY(0);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: transform;
 }
 
 .box >img {
@@ -758,6 +767,7 @@ body {
     transform: translatey(100%);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color, transform;
 }
 .pic-info {
     font-family: 'Roboto';
@@ -809,6 +819,7 @@ body {
     cursor: pointer;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
 }
 
 .button:hover {
@@ -816,6 +827,7 @@ body {
     cursor: pointer;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: opacity;
 }
 
 .list {
@@ -840,7 +852,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+    transition-property: left, top, width, height, background-color, opacity;
 }
 
 .modal {
