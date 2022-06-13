@@ -852,7 +852,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: left, top, width, height, background-color, opacity;
+    transition-property: opacity, visibility;
 }
 
 .modal {
